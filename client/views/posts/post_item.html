@@ -1,0 +1,20 @@
+<template name="postItem">
+  <div class="post">
+    <a href="#" class="rating"></a>
+    <div class="post-content">
+      <h3> {{WWW}} <span> HashTag </span> </h3>
+      <p>
+        <a href="#" class="upvoteYes btn">Congratulations! ({{Yes}})</a>  
+        <a href="#" class="upvoteMB btn">You can do better. ({{MB}})</a>
+    	</p>
+      <p>	submitted by {{author}} on {{submittedText}}
+    		{{#if ownPost}}<a href="{{pathFor 'postEdit'}}" class="sisters_reviewing">Edit</a>{{/if}}
+        <a href="{{pathFor 'postPage'}}" class="sisters_reviewing">
+      </p>
+      <p>{{pluralize commentsCount "comment"}}</a>
+    	</p>
+    </div>
+<!--    <a href="{{pathFor 'postPage'}}" class="discuss btn">Reviews</a>
+-->
+  </div>
+</template>
