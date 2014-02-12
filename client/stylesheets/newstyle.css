@@ -1,3 +1,12 @@
+#about {
+  font-size:16px;
+  line-height: 1.0;  
+  margin:25px;
+}
+
+#about p {
+  margin-top: 20px;
+}
 
 textarea {
   width: 90%;
@@ -36,6 +45,11 @@ textarea {
 .subText {
   font-size: 20px;
 /*  color: pink;*/
+}
+
+#subT {
+  font-size: 17px;
+  text-align: center;
 }
 
 #subTitle {

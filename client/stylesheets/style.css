@@ -25,7 +25,9 @@ h4 {
 body {
     background: #292929;
     color: #666666;
-    font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+/*    font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+*/  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+
 }
 
 .navbar { 
