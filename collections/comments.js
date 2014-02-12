@@ -15,7 +15,7 @@ Meteor.methods({
 		if (!commentAttributes.postId)
 			{throw new Meteor.Error(422, "You must submit a WWW."); }
 
-		comment = _.extend(_.pick(commentAttributes, 'postId', 'WWW'), {
+		comment = _.extend(_.pick(commentAttributes, 'postId', 'WWW', 'feedback'), {
 			userId: user._id,
 			author: user.username,
 			submitted: new Date().getTime()

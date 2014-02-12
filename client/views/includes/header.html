@@ -6,7 +6,7 @@
         
 
     <h2>
-        <a class="myTitleLink" href="{{pathFor 'home'}}">EndoDoctors</a>
+        <a class="myTitleLink" href="{{pathFor 'home'}}">What Worked Well</a>
     </h2>
 </div>
 
@@ -24,46 +24,26 @@
     		<div class="nav-collapse collapse">
     			<ul class="nav">
                     <li class="{{activeRouteClass 'home' 'newPosts'}}">
-                        <a href="{{pathFor 'newPosts'}}" id="newpost">Most Recently Reviewed</a>
+                        <a href="{{pathFor 'newPosts'}}" id="newpost">Most Recent</a>
                     </li>
 
                     <li class="{{activeRouteClass 'bestPosts'}}">
                         <a href="{{pathFor 'bestPosts'}}" id="highpost">Most Highly Rated</a>
                     </li>
 
-                	<li class="{{activeRouteClass 'postSubmit'}}">
-                        <a href="{{pathFor 'postSubmit'}}" id="submitpost">Don't see your doctor on the list? Add yours!</a></li>
-
-                  <li class="{{activeRouteClass 'about'}}">
-                    <a href="{{pathFor 'about'}}">About</a></li>
+                  <li class="{{activeRouteClass 'mostComments'}}">
+                    <a href="{{pathFor 'mostComments'}}">Most Comments</a></li>
                     
-                </ul>
-      	
-    			<ul class="nav pull-right">
-        			<li>{{loginButtons}}</li>
+            </ul>
+</li>
+<li>    			
+          <ul class="nav pull-right">
+              <li class="{{activeRouteClass 'about'}}"><a href="{{pathFor 'about'}}">About</a></li>
+              <li>{{loginButtons}}</li>
     			</ul>
 </li>
 <li>
 
-        <div class="navbar-inner">
-         
-
-<form action="searchResults" class="navbar-form navbar-right">
-   <div class="input-group">
-       <ul class="nav pull-right">
-       <li> 
-          <input type="Search" placeholder="Doctor's Name" class="form-control" id="searchInfo" />
-       </li> 
-       <li>
-          <div class="input-group-btn"> 
-            <input type="submit" value="Search!" class="btn disabled">
-            </input> 
-       </li>
-       </div>
-   </div>
-</form>
-
-</div>
 </div>
 </header>
 </li>

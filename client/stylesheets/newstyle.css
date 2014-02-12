@@ -1,6 +1,49 @@
-.reference {
-  font-size:10px;
-  line-height: 10px;
+
+textarea {
+  width: 90%;
+  padding: 12px;
+  border:none;
+  margin: 20px;
+}
+
+#EditWWW {
+  width: 90%;
+  padding: 12px;
+  border:none;
+  margin: 20px;
+}
+
+
+/*SubmitPost*/
+.main2 {
+/*  background-color: #2e8b30;
+  */background-color: #e3f1d4;
+  padding:10px;
+  border-radius: 8px;
+/*  color:#f5fbf2;
+*/
+  color:#292929;  
+  font-weight:normal;
+  margin-bottom:28px;
+} 
+
+.editText {
+  font-size: 20px;
+  color: #e3f1d4;
+  text-align: center;
+}
+
+.subText {
+  font-size: 20px;
+/*  color: pink;*/
+}
+
+#subTitle {
+  text-align: center;
+}
+
+.main2 .control-group {
+  margin-bottom:20px;
 }
 
 .gray {
@@ -11,24 +54,11 @@
   text-shadow: 0px 1px 0px #939393;
 }
 
-/*   Giving up on centering a div :(;
-.listTitle {
-  text-align: center
-}
-
-.centeredLists {
-padding-left:160px;
-}
-
-*/
 
 #comment-info {
 padding-left: 20px;
 }
 
-.searchnav {
-	list-style:none;
-}
 
 .headermine {
 	list-style: none;
@@ -36,21 +66,28 @@ padding-left: 20px;
 
 #myTitle a {
 	text-decoration: none;
-	color: white;
-}
+	color: #101010;
+  font-size:52px;
+  font-weight: thick;
+  font-style: bold;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;
 
+}
+/*#101010*/
 #myTitle {
 	text-align: center;
-	font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+/*	font-family: Monaco, Consolas, "Lucida Console", monospace;
+*/
 }
 
 .sisters_reviewing {
 	text-decoration: none;
-	color: maroon;
+	color: #226423;
 }
 
 .sisters_reviewing:hover {
-	color: #823a2b;
+	color: #2e8b30;
 	text-decoration:none;
 }
 
@@ -61,105 +98,8 @@ padding-left: 20px;
 
 }
 /* *   * * * * * */
-.sliderRater {
-	height:10px;
-	width:30px;
-}
 
 .horizontal {
 	list-style: none;
 	display:inline-block;
 }
-
-input[type="range"]{
-    background: rgb(94, 30, 30);
-    width: 150px;
-    height: 6px;
-    -webkit-appearance: none;
-    border-radius: 8px;
-    -moz-border-radius: 8px;
-    -wekkit-border-radius: 8px;
-    -webkit-box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.9), 0px 1px 1px 0px rgba(255, 255, 255, 0.13);
-    -moz-box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.9), 0px 1px 1px 0px rgba(255, 255, 255, 0.13);
-    box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.9), 0px 1px 1px 0px rgba(255, 255, 255, 0.13);
-}
-
-input[type="range"]:hover{
-    background: rgb(194, 139, 131);
-    width: 150px;
-    height: 6px;
-    -webkit-appearance: none;
-    border-radius: 8px;
-    -moz-border-radius: 8px;
-    -wekkit-border-radius: 8px;
-    -webkit-box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.9), 0px 1px 1px 0px rgba(255, 255, 255, 0.13);
-    -moz-box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.9), 0px 1px 1px 0px rgba(255, 255, 255, 0.13);
-    box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.9), 0px 1px 1px 0px rgba(255, 255, 255, 0.13);
-}
-
-input[type="range"]::-webkit-slider-thumb{
-   -webkit-appearance:none !important;  
-   width:25px;
-   height:15px;
-   -webkit-appearance: none;
-    border-radius: 8px;
-    -moz-border-radius: 8px;
-    -wekkit-border-radius: 8px;
-    border:1px solid black;
-
-    background: #a90329;
-    background: -moz-linear-gradient(left, #a90329 0%, #8f0222 50%, #6d0019 100%);
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#a90329), color-stop(50%,#8f0222), color-stop(100%,#6d0019));
-    background: -webkit-linear-gradient(left, #a90329 0%,#8f0222 50%,#6d0019 100%);
-    background: -o-linear-gradient(left, #a90329 0%,#8f0222 50%,#6d0019 100%);
-    background: -ms-linear-gradient(left, #a90329 0%,#8f0222 50%,#6d0019 100%);
-    background: linear-gradient(to right, #a90329 0%,#8f0222 50%,#6d0019 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=1 );
- }
-
-input[type="range"]::-webkit-slider-thumb:hover{
-   -webkit-appearance:none !important;  
-   width:25px;
-   height:15px;
-   -webkit-appearance: none;
-    border-radius: 8px;
-    -moz-border-radius: 8px;
-    -wekkit-border-radius: 8px;
-    background-color:rgb(56, 13, 13);
-    border:1px solid black;
-
-    background: -moz-linear-gradient(left, #1d2e38 0%, #2b4254 50%, #2b4254 100%);
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1d2e38), color-stop(50%,#2b4254), color-stop(100%,#2b4254));
-    background: -webkit-linear-gradient(left, #1d2e38 0%,#2b4254 50%,#2b4254 100%);
-    background: -o-linear-gradient(left, #1d2e38 0%,#2b4254 50%,#2b4254 100%);
-    background: -ms-linear-gradient(left, #1d2e38 0%,#2b4254 50%,#2b4254 100%);
-    background: linear-gradient(left, #1d2e38 0%,#2b4254 50%,#2b4254 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d2e38', endColorstr='#2b4254',GradientType=1 );
- }
-
-
-/*
-input[type="range"]{
-   -webkit-appearance:none !important;
-}
-
-input[type="range"]::-webkit-slider-thumb {
-   -webkit-appearance:none !important; 
- }
-*/
-
-/*Original attempt to create rating system with a slider instead of buttons */
-/*
-input[type="range"]{
-   -webkit-appearance:none !important;
-	background-image:url('http://cdn.bleacherreport.net/images_root/slides/photos/003/210/912/stars_crop_650.jpg?1371089128');
- 	background-image-width: -400px;
- 	background-image-height: -400px;
- 	width:400px;
- 	height:200px;
-}
-
-input[type="range"]::-webkit-slider-thumb {
-   -webkit-appearance:none !important; 
- }
-*/

@@ -8,8 +8,8 @@ Template.postSubmit.events({
     }
 
     post._id = Posts.insert(post);
-    Router.go('postPage', post);
-
+  /*  Router.go('postPage', post);
+*/
     Meteor.call('post', post, function(error, id) {
       if (error) {
         //display error to user:

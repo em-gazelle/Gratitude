@@ -1,38 +1,31 @@
 <template name="postEdit">
 	<form class="main">
-		<div class="control-group">
-			<label class="control-label" for="url">URL</label>
-			<div class="controls">
-				<input name="url" type="text" value="{{url}}" placeholder="Your URL"/>
-			</div>
-		</div>
+		
 
-		<div class="control-group">
-			<label class="control-label" for="title">Doctor</label>
-			<div class="controls">
-				<input name="title" type="text" value="{{title}}" placeholder="Doctor's Name"/>
-			</div>
-		</div>
 
-		<div class="control-group">
-        	<label class="control-label" for="clinic">Clinic or Hospital Name</label>
-        	<div class="controls">
-            	<input name="clinic" type="text" value="" placeholder="Cleveland Clinic"/>
-        	</div>
-    	</div>
+	    <div class="control-group">
+	        <label class="control-label" for="WWW"><h4 class="editText" id="editTitle"><strong>Edit:</strong> What Worked Well?</h4></label>
+	        <div class="controls">
+	            <label for="WWW"><p class="editText">When things work out in life, don't let them slip away. Tell us what you're grateful for today! </p></label>
+	            <input name="WWW" type="text" value="{{WWW}}" id="EditWWW"></input>
+	    </div>
 
+	<ul class="horizontal pull-right">
+		<li class="pull-left">
 		<div class="control-group">
 			<div class="controls">
-				<input type="submit" value="Submit" class="btn btn-primary submit"/>
+				<a class="btn btn-danger delete pull-left" href="#">Delete Post</a>
 			</div>
 		</div>
-
-
+	</li>
+	<li class="pull-right">
 		<div class="control-group">
 			<div class="controls">
-				<a class="btn btn-danger delete" href="#">Delete Post</a>
+				<input type="submit" value="Submit" class="btn btn-default submit pull-right"/>
 			</div>
 		</div>
+	</li>
+	</ul>
 
 	</form>
 </template>
